@@ -5,6 +5,9 @@
 
 .container {
   text-align: center;
+
+  display: grid;
+  grid-template: 33 fr 66 fr / ;
 }
 
 .container div {
