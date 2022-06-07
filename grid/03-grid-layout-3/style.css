@@ -9,6 +9,8 @@
   display: grid;
   /* column / row */
   grid-template-columns: 1fr 4fr;
+  gap: 4px;
+  text-align: center;
 }
 
 .container div {
@@ -40,6 +42,8 @@
 .menu {
   grid-area: 1 / 2 / 2 / 4;
   /* grid-auto-columns: 1fr; */
+  align-self: center;
+
 }
 
 .menu ul {
@@ -60,9 +64,9 @@
   background-color: #FF7755;
 
   display: grid;
-  grid-template-rows: repeat(4, 200px);
+  /* grid-template-rows: repeat(4, 200px); */
   gap: 50px;
-  grid-area: 2 / 1 / 4 / 2;
+  grid-row: 2 / 4;
 }
 
 .sidebar .photo {
